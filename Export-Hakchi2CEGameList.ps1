@@ -3,20 +3,19 @@
 	Generates Hakchi2 CE Game List.
 	
 .Description
-	Generates an HTML file listing games from your Hakchi2 CE folder
-    Assuming Hakchi version https://github.com/TeamShinkansen/Hakchi2-CE/
-    Run from root of Hakchi2 folder
+	Powershell script that generates an HTML file listing game information from your Hakchi2 CE folder
+	Assuming Hakchi version https://github.com/TeamShinkansen/Hakchi2-CE/
 	
 .Notes
 	Author        : Josh Drummond
 	Version       : 1.0 - 12/22/2021 - Initial release
-	Source        : https://github.com/joshdrummond
+	Source        : https://github.com/joshdrummond/Hakchi2CEGameListExporter/
 	
 .Example
 	.\Export-Hakchi2CEGameList.ps1
 	-----------
 	Description
-	Generates and outputs ClassicMiniGameList.html in the current directory.  This script should be in the root of your Hakchi2 CE installation.
+	Generates and outputs ClassicMiniGameList.html in the current directory.  This script should run from the root of your Hakchi2 CE installation.
 
     Requires Execution Policy:
         Get-ExecutionPolicy -list
