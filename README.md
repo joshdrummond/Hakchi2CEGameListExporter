@@ -1,6 +1,6 @@
 # Hakchi2CEGameListExporter
 * For use with NES Classic Edition, SNES Classic Edition, etc "mini" retro consoles
-* Powershell script that generates an HTML file listing game information from your Hakchi2 CE folder.
+* Powershell script that generates an HTML and CSV file listing game information from your Hakchi2 CE folder.
 * Outputs a sortable table with all games (original and uploaded) title, system, and filename.
 
 ## Instructions
